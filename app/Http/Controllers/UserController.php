@@ -142,7 +142,7 @@ class UserController extends Controller
         if (Auth::attempt($arr, true)) {
             $user = User::where('username', $request->username)->first();
             $request->session()->put('username_minmovies', $user->username);
-            return redirect()->back()->with(['thongbao_level' => 'success', 'thongbao' => "<b>Đăng nhập thành công!</b><br>Hãy tận hưởng những phút giây thư giản trên <b>MinMovies</b>"]);
+            return redirect()->back()->with(['thongbao_level' => 'success', 'thongbao' => "<b>Đăng nhập thành công!"]);
         } else
             return redirect()->back()->with(['thongbao_level' => 'danger', 'thongbao' => "<b>Đăng nhập thất bại!</b> Bạn vui lòng kiểm tra lại tài khoản và mật khẩu.<br>Hoặc sử dụng chức năng <b>Quên mật khẩu!</b>"]);
     }

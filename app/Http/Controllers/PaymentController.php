@@ -32,7 +32,7 @@ class PaymentController extends Controller
                 $payment->save();
                 $wallet->money=$wallet->money-$movie->price;
                 $wallet->save();
-                return redirect()->back()->with(['thongbao_level'=>'success','thongbao'=>"<b>Mua phim thành công!</b><br>Hãy tận hưởng những phút giây thư giản trên <b>MinMovies</b>"]);
+                return redirect()->back()->with(['thongbao_level'=>'success','thongbao'=>"<b>Mua phim thành công!</b><br>Hãy tận hưởng những phút giây thư giản"]);
             }
         }
     }

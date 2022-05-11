@@ -74,29 +74,11 @@
                     </div><br><br>
                     <div class="row">
                         <div class="col-md-6">
-                            <!-- <div>
-                                <button class="switch btn btn-info infobtn"><i class="fas fa-lightbulb"></i> <b>Tắt
-                                        đèn</b></button>
-                            </div> -->
+                            
                         </div>
                         <div class="col-md-6">
                             <div class="pull-right">
-                                <!-- LikeBtn.com BEGIN -->
-                                <span class="likebtn-wrapper" data-identifier="detailmovie/{{$movie->id}}"
-                                    data-theme="ublue" data-lang="vi" data-ef_voting="push" data-rich_snippet="true" data-dislike_enabled="false"
-                                    data-show_dislike_label="true" data-counter_clickable="true"
-                                    data-counter_zero_show="true" data-counter_count="true" data-popup_width="0"
-                                    data-share_size="small" data-loader_show="true"
-                                    data-i18n_like_tooltip="Thích phim này!"
-                                    data-i18n_dislike_tooltip="Không thích phim này!"
-                                    data-i18n_share_text="Cảm ơn bạn đã thích phim!" data-i18n_popup_close="Tắt"></span>
-                                <script>
-                                    (function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");
-                                </script>
-                                <!-- LikeBtn.com END -->
-                                <a target="_blank" class="btn btn-info infobtn" title="Chia sẽ lên Facebook!"
-                                    href="https://www.facebook.com/sharer/sharer.php?u={{url()->current()}}"><i
-                                        class="fab fa-facebook-square"></i> Facebook</a>
+                                
                             </div>
                         </div>
                     </div><br>
@@ -360,7 +342,7 @@
         @if (!$sliderCate->isEmpty())
         <!-- slider-bottom -->
         <div class="banner-bottom">
-            <h3 class="text-uppercase text-lg text-bold">phim cùng thể loại</h3><br>
+            <h3 class="text-uppercase text-lg text-bold " style = "color: #fff">phim cùng thể loại</h3><br>
             <div class="container text-center">
                 <div class="w3_agile_banner_bottom_grid">
                     <div id="owl-demo" class="owl-carousel owl-theme">

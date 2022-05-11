@@ -33,7 +33,7 @@
                                 <h3>NẠP TIỀN</h3>
                                 <form action="{{ route('user.postChargeWallet') }}" method="post">
                                     @csrf
-                                    <input type="number" name="amount" value="" placeholder="Nhập số tiền bạn muốn nạp" required="" oninvalid="this.setCustomValidity('Có phải bạn có quên mất gì đó?')"
+                                    <input type="text" name="amount" value="" placeholder="Nhập số tiền bạn muốn nạp" required="" oninvalid="this.setCustomValidity('Có phải bạn có quên mất gì đó?')"
                                     oninput="this.setCustomValidity('')">
                                     <input type="submit" value="Nạp ngay"><br><br>
                                 </form>

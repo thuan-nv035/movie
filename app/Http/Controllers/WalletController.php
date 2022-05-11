@@ -34,10 +34,15 @@ class WalletController extends Controller
     public function postChargeWallet(Request $request)
     {
         $username = session('username_minmovies');
-        $vnp_Url = "http://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-        $vnp_Returnurl = "http://localhost/webxemphim/wallet/saveChargeWallet/".$username;
+        $vnp_Url = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
+        $vnp_Returnurl = "http://localhost/movie/wallet/saveChargeWallet/".$username;
+        $vnp_apiUrl = "http://sandbox.vnpayment.vn/merchant_webapi/merchant.html";
+
         $vnp_TmnCode = "NPEH7523"; //Mã website tại VNPAY
         $vnp_HashSecret = "JECUMZPPNSAXSMLSGJGJTHJMKJBRYHRT"; //Chuỗi bí mật
+
+        // $vnp_TmnCode = "H0X5LQKB"; //Mã website tại VNPAY
+        // $vnp_HashSecret = "VYZGDQALEYBDHFWSUFNNIRHGPTAITDVJ"; //Chuỗi bí mật
 
         $vnp_TxnRef = date('YmdHis'); //Mã đơn hàng. Trong thực tế Merchant cần insert đơn hàng vào DB và gửi mã này sang VNPAY
         $vnp_OrderInfo = "Nạp tiền vào ví";
@@ -93,9 +98,15 @@ class WalletController extends Controller
         * Trả kết quả ghi nhận lại cho VNPAY
         */
         $username = session('username_minmovies');
-        $vnp_Url = "http://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
+        $vnp_Url = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
+        $vnp_apiUrl = "http://sandbox.vnpayment.vn/merchant_webapi/merchant.html";
+
         $vnp_TmnCode = "NPEH7523"; //Mã website tại VNPAY
         $vnp_HashSecret = "JECUMZPPNSAXSMLSGJGJTHJMKJBRYHRT"; //Chuỗi bí mật
+
+        // $vnp_TmnCode = "H0X5LQKB"; //Mã website tại VNPAY
+        // $vnp_HashSecret = "VYZGDQALEYBDHFWSUFNNIRHGPTAITDVJ"; //Chuỗi bí mật
+
         $inputData = array();
         $returnData = array();
         $data = $_REQUEST;

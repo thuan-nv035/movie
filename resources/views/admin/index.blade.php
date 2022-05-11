@@ -161,7 +161,7 @@
             </div>
         </div>
 
-        <div class="col-xl-3 col-md-6 mb-4">
+        <div class="col-md-4 mb-4">
             <div class="card border-left-danger shadow h-100 py-2">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
@@ -177,7 +177,7 @@
             </div>
         </div>
 
-        <div class="col-xl-3 col-md-6 mb-4">
+        <div class="col-md-4 mb-4">
             <div class="card border-left-dark shadow h-100 py-2">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
@@ -193,7 +193,7 @@
             </div>
         </div>
 
-        <div class="col-xl-3 col-md-6 mb-4">
+        <div class="col-md-4 mb-4">
             <div class="card border-left-primary shadow h-100 py-2">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
@@ -203,22 +203,6 @@
                         </div>
                         <div class="col-auto">
                             <i class="fad fa-calendar-alt fa-2x " style="--fa-primary-color: navy; --fa-secondary-color: cornflowerblue; --fa-secondary-opacity: 1.0;"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-left-secondary shadow h-100 py-2">
-                <div class="card-body">
-                    <div class="row no-gutters align-items-center">
-                        <div class="col mr-2 text-center">
-                            <div class="text-lg font-weight-bold text-secondary text-uppercase mb-1">Ngôn ngữ</div>
-                            <div class="h5 font-weight-bold text-gray-800">{{ count($language) }}</div>
-                        </div>
-                        <div class="col-auto">
-                            <i class="fad fa-language fa-2x " style="--fa-primary-color: lightcoral; --fa-secondary-color: black; --fa-secondary-opacity: 1.0;"></i>
                         </div>
                     </div>
                 </div>
