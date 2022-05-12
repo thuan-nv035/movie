@@ -1,5 +1,5 @@
 @extends('admin.master')
-@section('title','Danh Sách Mua Phim - MinMovie')
+@section('title','Danh Sách Mua Phim')
 @section('content')
 <div id="content">
 

@@ -1,5 +1,5 @@
 @extends('admin.master')
-@section('title','Thêm Quốc Gia - MinMovie')
+@section('title','Thêm Quốc Gia')
 @section('content')
 <div class="container-fluid w-50 text-center">
     <form method="POST" action="{{ route('admin.nation.create') }}">

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Đăng nhập Quản trị viên - MinMovies</title>
+    <title>Đăng nhập Quản trị viên</title>
     <base href="{{ asset('')}}/public/admin/login/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

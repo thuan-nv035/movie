@@ -1,5 +1,5 @@
 @extends('admin.master')
-@section('title','Sửa Người Dùng - MinMovie')
+@section('title','Sửa Người Dùng')
 @section('content')
 <div class="container-fluid w-50 border p-3 rounded-lg">
     <form method="POST" action="{{ route('admin.user.edit',$id) }}">

@@ -1,5 +1,5 @@
 @extends('admin.master')
-@section('title','Danh Sách Nạp Tiền - MinMovie')
+@section('title','Danh Sách Nạp Tiền')
 @section('content')
 <div id="content">
 
@@ -13,7 +13,7 @@
             <div class="card-header py-3">
                 <div class="m-0 font-weight-bold text-primary">
                     DANH SÁCH NẠP TIỀN
-                    <a href="https://sandbox.vnpayment.vn/merchantv2/Users/Login.htm?ReturnUrl=%2fmerchantv2%2fUsers%2fLogout.htm" class="btn btn-success float-right" target="_blank">Truy cập trang quản lý hoá đơn VNPAY</a>
+                    <!-- <a href="https://sandbox.vnpayment.vn/merchantv2/Users/Login.htm?ReturnUrl=%2fmerchantv2%2fUsers%2fLogout.htm" class="btn btn-success float-right" target="_blank">Truy cập trang quản lý hoá đơn VNPAY</a> -->
                 </div>
             </div>
             @if (session('thongbao'))

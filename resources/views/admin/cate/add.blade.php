@@ -1,5 +1,5 @@
 @extends('admin.master')
-@section('title','Thêm Thể Loại - MinMovie')
+@section('title','Thêm Thể Loại')
 @section('content')
 <div class="container-fluid w-50 text-center">
     <form method="POST" action="{{ route('admin.cate.create') }}">

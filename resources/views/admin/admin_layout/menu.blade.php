@@ -3,15 +3,7 @@
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('user.index') }}"
         title="Mở MinMovies trong tab mới" target="_blank">
-        <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fad fa-toolbox"
-                style="--fa-primary-color: white; --fa-secondary-color: black; --fa-secondary-opacity: 1.0;"></i>
-        </div>
-        <div class="sidebar-brand-text mx-3">Movie</div>
-        <div class="sidebar-brand-icon rotate-15">
-            <i class="fad fa-toolbox"
-                style="--fa-primary-color: black; --fa-secondary-color: white; --fa-secondary-opacity: 1.0;"></i>
-        </div>
+        <span class="sidebar-brand-text mx-3">Movie</span>
     </a>
 
     <!-- Divider -->

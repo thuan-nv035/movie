@@ -1,5 +1,5 @@
 @extends('admin.master')
-@section('title','Sửa Năm Sản Xuất - MinMovie')
+@section('title','Sửa Năm Sản Xuất')
 @section('content')
 <div class="container-fluid w-50 text-center">
     <form method="POST" action="{{ route('admin.year.edit',$year->id) }}">

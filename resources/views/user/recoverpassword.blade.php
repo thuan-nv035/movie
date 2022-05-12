@@ -45,7 +45,7 @@
                                 </h4><br>
                                 <h4><b>Bước 2:</b> Chờ trong giây lát, chúng tôi sẽ gửi email chứa liên kết xác nhận đến Email của bạn.</h4><br>
                                 <h4><b>Bước 3:</b> Truy cập hòm mail của bạn kiểm tra xem đã nhận được email khôi phục từ
-                                    chúng tôi hay chưa. Email của chúng tôi có dạng <b>"Email khôi phục tài khoản MinMovies"</b>.
+                                    chúng tôi hay chưa. Email của chúng tôi có dạng <b>"Email khôi phục tài khoản"</b>.
                                 </h4><br>
                                 <h4><b>Bước 4:</b> Nhấp vào liên kết trong email để chuyển sang trang đổi mật khẩu.</h4><br>
                                 <h4><b>Bước 5:</b> Đổi mật khẩu mới tại trang đổi mật khẩu.

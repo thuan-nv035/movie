@@ -1,5 +1,5 @@
 @extends('admin.master')
-@section('title','Thống Kê Nạp Tiền - MinMovie')
+@section('title','Thống Kê Nạp Tiền')
 @section('content')
 <div id="content">
     <!-- Begin Page Content -->
@@ -148,7 +148,7 @@
                                         oninvalid="this.setCustomValidity('Có phải bạn có quên chọn gì đó?')"
                                         onchange="this.setCustomValidity('')">
                                         <option value="" data-display="Duyệt theo năm">Chưa chọn...</option>
-                                        @for ($i = 2020; $i >= 2018; $i--)
+                                        @for ($i = 2022; $i >= 2020; $i--)
                                         @isset($sortIDYear)
                                         @if ($i==$sortIDYear)
                                         <option selected value="{{ $i }}">{{ $i }}</option>
@@ -167,9 +167,9 @@
                             </div>
                         </div>
                         <div class="col-md-5">
-                            <a href="https://sandbox.vnpayment.vn/merchantv2/Users/Login.htm?ReturnUrl=%2fmerchantv2%2fUsers%2fLogout.htm"
+                            <!-- <a href="https://sandbox.vnpayment.vn/merchantv2/Users/Login.htm?ReturnUrl=%2fmerchantv2%2fUsers%2fLogout.htm"
                     class="btn btn-success float-right" target="_blank">Truy cập trang quản lý doanh thu
-                    VNPAY</a>
+                    VNPAY</a> -->
                         </div>
                     </div>
                 </form>

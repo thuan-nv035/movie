@@ -1,5 +1,5 @@
 @extends('admin.master')
-@section('title','Thêm Phim Mới - MinMovie')
+@section('title','Thêm Phim Mới')
 @section('content')
 <style>
     select {
