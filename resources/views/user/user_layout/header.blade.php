@@ -37,15 +37,19 @@
                 @if (session('username_minmovies'))
                 <div>
                     <ul class="nav pull-right">
-                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <h4><img src="public/user//images/hi.gif" style="padding-right: 10px;">Chào
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <h4>
                                     {{ Auth::user()->name }}
-                                </h4> <b class="caret"></b>
+                                </h4>
                             </a>
                             <ul class="dropdown-menu pull-center">
-                                <li class="loggedin"><a href="{{ route('user.getCabinet') }}"><i class="fad fa-film-alt"
-                                            style="margin-right:14px; --fa-primary-color: black; --fa-secondary-color: dodgerblue; --fa-secondary-opacity: 1.0;"></i>Tủ
-                                        phim</a>
+                                <li class="loggedin">
+                                    <a href="{{ route('user.getCabinet') }}">
+                                        <i class="fad fa-film-alt"
+                                            style="margin-right:14px; --fa-primary-color: black; --fa-secondary-color: dodgerblue; --fa-secondary-opacity: 1.0;"></i>
+                                        Tủ phim
+                                    </a>
                                 </li>
                                 <li class="loggedin"><a href="{{ route('user.boughtMovie') }}"><i
                                             class="fad fa-shopping-basket"
