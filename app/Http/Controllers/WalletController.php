@@ -41,9 +41,6 @@ class WalletController extends Controller
         $vnp_TmnCode = "NPEH7523"; //Mã website tại VNPAY
         $vnp_HashSecret = "JECUMZPPNSAXSMLSGJGJTHJMKJBRYHRT"; //Chuỗi bí mật
 
-        // $vnp_TmnCode = "H0X5LQKB"; //Mã website tại VNPAY
-        // $vnp_HashSecret = "VYZGDQALEYBDHFWSUFNNIRHGPTAITDVJ"; //Chuỗi bí mật
-
         $vnp_TxnRef = date('YmdHis'); //Mã đơn hàng. Trong thực tế Merchant cần insert đơn hàng vào DB và gửi mã này sang VNPAY
         $vnp_OrderInfo = "Nạp tiền vào ví";
         $vnp_OrderType = "250006";
@@ -103,10 +100,6 @@ class WalletController extends Controller
 
         $vnp_TmnCode = "NPEH7523"; //Mã website tại VNPAY
         $vnp_HashSecret = "JECUMZPPNSAXSMLSGJGJTHJMKJBRYHRT"; //Chuỗi bí mật
-
-        // $vnp_TmnCode = "H0X5LQKB"; //Mã website tại VNPAY
-        // $vnp_HashSecret = "VYZGDQALEYBDHFWSUFNNIRHGPTAITDVJ"; //Chuỗi bí mật
-
         $inputData = array();
         $returnData = array();
         $data = $_REQUEST;

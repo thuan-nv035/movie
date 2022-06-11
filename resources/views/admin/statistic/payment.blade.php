@@ -119,7 +119,7 @@
                                         oninvalid="this.setCustomValidity('Có phải bạn có quên chọn gì đó?')"
                                         onchange="this.setCustomValidity('')">
                                         <option value="" data-display="Duyệt theo năm">Chưa chọn...</option>
-                                        @for ($i = 2020; $i >= 2018; $i--)
+                                        @for ($i = 2022; $i >= 2018; $i--)
                                         @isset($sortIDYear)
                                         @if ($i==$sortIDYear)
                                         <option selected value="{{ $i }}">{{ $i }}</option>
